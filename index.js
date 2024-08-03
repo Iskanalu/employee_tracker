@@ -9,12 +9,12 @@ async function main() {
     name: 'action',
     message: 'What would you like to do?',
     choices: [
-      'View all departments',
-      'View all roles',
-      'View all employees',
       'Add a department',
       'Add a role',
       'Add an employee',
+      'View all departments',
+      'View all roles',
+      'View all employees',      
       'Update an employee role',
     ],
   });
